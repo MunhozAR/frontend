@@ -1,0 +1,62 @@
+.tarefa-form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.tarefa-form-container h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.tarefa-form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.tarefa-form-container label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.tarefa-form-container input[type="text"],
+.tarefa-form-container input[type="number"],
+.tarefa-form-container textarea,
+.tarefa-form-container select {
+    padding: 8px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
+.tarefa-form-container input[type="text"]:focus,
+.tarefa-form-container input[type="number"]:focus,
+.tarefa-form-container textarea:focus,
+.tarefa-form-container select:focus {
+    border-color: #6200ea;
+}
+
+.tarefa-form-container textarea {
+    resize: vertical;
+}
+
+.compact-button {
+    background-color: #6200ea;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.compact-button:hover {
+    background-color: #3700b3;
+} 
