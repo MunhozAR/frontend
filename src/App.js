@@ -1,9 +1,9 @@
 import React, { Suspense, lazy } from "react";
 import "./App.css";
 
-import Header from "./componentes/Header";
-import Footer from "./componentes/Footer";
-import Aside from "./componentes/Aside";
+import Header from "./componentes/Header/Header";
+import Footer from "./componentes/Footer/Footer";
+import Aside from "./componentes/Aside/Aside";
 
 import { Routes, Route } from "react-router-dom";
 
@@ -11,7 +11,7 @@ import { Routes, Route } from "react-router-dom";
 import routesConfig from "./jsondata/menulinks.json";
 
 // Função para carregar componentes dinamicamente com base no nome
-const lazyLoadComponent = (componentName) => lazy(() => import(`./paginas/${componentName}`));
+const lazyLoadComponent = (componentName) => lazy(() => import(`./paginas/${componentName}/${componentName}`));
 
 function App() {
   return (
