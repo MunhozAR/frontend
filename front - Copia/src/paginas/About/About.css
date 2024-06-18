@@ -1,0 +1,50 @@
+#text-nome{
+    display: flex;
+    width: fit-content;
+    border: none;
+    border-radius: 0;
+    margin-top: 15px;
+    margin-bottom: 20px; 
+    padding: 10px;
+    border: 2px solid black;
+}
+#text-ano{
+    display: flex;
+    width: fit-content;
+    border: none;
+    border-radius: 0;
+    margin-top: 15px;
+    margin-bottom: 20px; 
+    padding: 10px;
+    border: 2px solid black;
+}
+#text-senha{
+    display: flex;
+    width: fit-content;
+    border: none;
+    border-radius: 0;
+    margin-top: 15px;
+    margin-bottom: 20px; 
+    padding: 10px;
+    border: 2px solid black;
+}
+#text-usuario{
+    display: flex;
+    width: fit-content;
+    border: none;
+    border-radius: 0;
+    margin-top: 15px;
+    margin-bottom: 20px; 
+    padding: 10px;
+    border: 2px solid black;
+}
+#text-sala{
+    display: flex;
+    width: fit-content;
+    border: none;
+    border-radius: 0;
+    margin-top: 15px;
+    margin-bottom: 20px; 
+    padding: 10px;
+    border: 2px solid black;
+}
